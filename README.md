@@ -30,3 +30,13 @@ pip3 install efb-voice_recog-middleware
 pip3 install efb-notice-middleware
 ```
 ## 采用docker-compose
+```yaml
+version: '3.8'
+services:
+  efb:
+    image: ghcr.io/markwhitey/ehforwarderbot:latest
+    container_name: efb
+    restart: always
+    volumes:
+      - ./ehforwarderbot:/data
+```
