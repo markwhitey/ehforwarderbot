@@ -40,3 +40,4 @@ services:
     volumes:
       - ./ehforwarderbot:/data
 ```
+bear
