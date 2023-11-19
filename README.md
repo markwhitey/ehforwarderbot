@@ -3,7 +3,7 @@
 ## install
 
 ```console
-$ git clone https://github.com/jiz4oh/ehforwarderbot ehforwarderbot
+$ git clone https://github.com/markwhitey/ehforwarderbot ehforwarderbot
 ```
 
 ## configuration
