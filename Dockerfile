@@ -22,7 +22,7 @@ RUN apk add --no-cache --virtual .build-deps build-base gcc python3-dev \
     && /opt/venv/bin/pip install --no-cache-dir git+https://github.com/ehForwarderBot/efb-wechat-slave.git \
     && /opt/venv/bin/pip install --no-cache-dir efb-voice_recog-middleware \
     && /opt/venv/bin/pip install --no-cache-dir efb-notice-middleware \
-    && /opt/venv/bin/pip install --no-cache-dir python-telegram-bot==13.7 urllib3 six \
+    && /opt/venv/bin/pip install --no-cache-dir python-telegram-bot==13.11 urllib3 six \
     # 删除构建依赖，减小体积
     && apk del .build-deps
 
