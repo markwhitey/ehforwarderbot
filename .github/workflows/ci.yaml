@@ -48,5 +48,5 @@ jobs:
           push: true
           tags: |
             ghcr.io/jiz4oh/efb:latest
-            ghcr.io/jiz4oh/efb:${{ env.version }
+            ghcr.io/jiz4oh/efb:${{ env.version }}
 
