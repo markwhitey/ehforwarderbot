@@ -1,11 +1,12 @@
 version: "3.3"
 
 services:
-  pandora:
+  efb:
     image: ghcr.io/jiz4oh/efb
     container_name: efb
+    network_mode: host
     volumes:
-      - ./ehforwarderbot:/data
+      - .:/data
     restart: unless-stopped
     logging:
       driver: json-file

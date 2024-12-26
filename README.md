@@ -17,7 +17,7 @@ $ git clone https://github.com/jiz4oh/ehforwarderbot ehforwarderbot
 ## start
 
 ```console
-$ docker build ehforwarderbot/ -t efb
-$ docker rm -f efb >/dev/null 2>&1 && docker run -d --name=efb --restart=always -v $PWD/ehforwarderbot/:/data/ efb
+$ cd ehforwarderbot
+$ docker compose up -d
 ```
 
